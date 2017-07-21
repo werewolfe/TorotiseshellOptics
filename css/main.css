@@ -1,0 +1,452 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    line-height: 1.4rem;
+
+}
+
+header div {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* Header elements */
+
+header {
+    background-image: url("../img/glasses-bg.png");
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-size: cover;
+    padding-top: 1rem;
+    height: 30rem;
+}
+
+.logo {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+    padding: 1rem 0;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar div span {
+    color: #FFFFFF;
+    letter-spacing: 0.1rem;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+ul {
+    margin-right: 1rem;
+}
+
+ul li {
+    display: inline;
+    padding: 0 1rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+.navbar nav span {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-right: 1rem;
+    letter-spacing: 0.1rem;
+    display: inline;
+    text-align: right;
+    padding: 30px 10px;
+}
+
+header .headline {
+    display: flex;
+
+}
+.banner {
+    background-color: white;
+    padding: 0.75rem 5rem;
+    display: inline-block;
+    margin-top: 10rem;
+    margin-right: -2rem;
+    line-height: 2.4rem;
+}
+
+/* Icon Section */
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    width: 5rem;
+    height: 8rem;
+}
+
+.icon img {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+.icon .paper{
+    width: 3.5rem;
+}
+
+/* Blurb section */
+
+.blurbcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.blurb {
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+}
+
+.blurb h3 {
+    background-color: cadetblue;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    color: white;
+    max-width: 10rem;
+}
+
+.blurb p {
+    padding: 1rem 0;
+}
+
+footer {
+    background-color: azure;
+    text-align: center;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        padding-top: 0;
+        height: 22rem;
+    }
+
+    .navbar {
+        max-width: 100%;
+    }
+
+    .headline {
+        padding: 0.75rem 4rem;
+        margin: auto;
+    }
+
+    .headline h1 {
+        font-size: 1.33rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar nav span {
+    display: none;
+  }
+
+  .navbar ul {
+    display: block;
+  }
+
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .banner {
+    padding: 0 1rem;
+    margin: 6rem auto 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+    .banner h1 {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+    .blurb {
+        width: auto;
+    }
+
+    .blurb h3 {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .blurb p {
+        padding: 1rem;
+        font-size: .77rem;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+  header .headline {
+    display: flex;
+  }
+
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .banner {
+    padding: 0 1rem;
+    margin: 6rem auto 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner h1 {
+    font-size: 1rem;
+  }
+
+  .blurbcontainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+  }
+
+  .icon-row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    }
+
+  .icon {
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+  }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
